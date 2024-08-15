@@ -1,0 +1,8 @@
+[gd_resource type="LabelSettings" load_steps=2 format=3 uid="uid://cqjr7ovyko7gl"]
+
+[ext_resource type="FontFile" uid="uid://dgb238vxry7ox" path="res://Resources/Fonts/EnceladusRegular.otf" id="1_lm47x"]
+
+[resource]
+line_spacing = 1.0
+font = ExtResource("1_lm47x")
+font_size = 12

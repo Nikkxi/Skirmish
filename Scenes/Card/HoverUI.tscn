@@ -1,0 +1,137 @@
+[gd_scene load_steps=3 format=3 uid="uid://dywbtvuvphif2"]
+
+[ext_resource type="Texture2D" uid="uid://ccktotihe5eop" path="res://Resources/Sprites/icon.svg" id="1_uwu5e"]
+[ext_resource type="LabelSettings" uid="uid://cqjr7ovyko7gl" path="res://Resources/Settings/CardLabelSettings.tres" id="2_m1uf8"]
+
+[node name="CardHover" type="Node2D"]
+
+[node name="CardBackground" type="Sprite2D" parent="."]
+position = Vector2(125, 64)
+offset = Vector2(0, 68)
+
+[node name="CardArt" type="Sprite2D" parent="."]
+position = Vector2(125, 64)
+texture = ExtResource("1_uwu5e")
+offset = Vector2(0, 76)
+
+[node name="HoverUi" type="Control" parent="."]
+custom_minimum_size = Vector2(250, 350)
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 250.0
+offset_bottom = 350.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HoverUi"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="NameBox" type="Panel" parent="HoverUi/VBoxContainer"]
+custom_minimum_size = Vector2(0, 32)
+layout_mode = 2
+size_flags_vertical = 4
+
+[node name="Name" type="Label" parent="HoverUi/VBoxContainer/NameBox"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="StatsBox" type="Panel" parent="HoverUi/VBoxContainer"]
+custom_minimum_size = Vector2(0, 32)
+layout_mode = 2
+size_flags_vertical = 4
+
+[node name="HBoxContainer" type="HBoxContainer" parent="HoverUi/VBoxContainer/StatsBox"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -239.0
+offset_bottom = 23.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_vertical = 4
+
+[node name="Attack" type="Label" parent="HoverUi/VBoxContainer/StatsBox/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="UnitSize" type="Label" parent="HoverUi/VBoxContainer/StatsBox/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Health" type="Label" parent="HoverUi/VBoxContainer/StatsBox/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Artwork Spacer" type="Control" parent="HoverUi/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="DescriptionBox" type="Panel" parent="HoverUi/VBoxContainer"]
+custom_minimum_size = Vector2(0, 112)
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HoverUi/VBoxContainer/DescriptionBox"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="OnDeployEffect" type="Label" parent="HoverUi/VBoxContainer/DescriptionBox/VBoxContainer"]
+custom_minimum_size = Vector2(0, 16)
+layout_mode = 2
+size_flags_vertical = 3
+text = "[Description]
+Multi
+Line
+Info
+Test"
+label_settings = ExtResource("2_m1uf8")
+max_lines_visible = 7
+
+[node name="TriggerCondition" type="Label" parent="HoverUi/VBoxContainer/DescriptionBox/VBoxContainer"]
+custom_minimum_size = Vector2(0, 16)
+layout_mode = 2
+size_flags_vertical = 1
+text = "Trigger: "
+label_settings = ExtResource("2_m1uf8")
+max_lines_visible = 2
+
+[node name="OnTriggerEffect" type="Label" parent="HoverUi/VBoxContainer/DescriptionBox/VBoxContainer"]
+custom_minimum_size = Vector2(0, 16)
+layout_mode = 2
+size_flags_vertical = 3
+text = "Trigger Effect
+Effect"
+label_settings = ExtResource("2_m1uf8")
+max_lines_visible = 2
+
+[node name="AdditionalInfoBox" type="Panel" parent="HoverUi/VBoxContainer"]
+custom_minimum_size = Vector2(0, 24)
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="HoverUi/VBoxContainer/AdditionalInfoBox"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="SetID" type="Label" parent="HoverUi/VBoxContainer/AdditionalInfoBox/HBoxContainer"]
+custom_minimum_size = Vector2(32, 0)
+layout_mode = 2
+text = "SOA"
