@@ -1,5 +1,0 @@
-Variable,Content
-symbol,#(switch;@[suit];H;art/hearts.png;D;art/diamonds.png;S;art/spades.png;C;art/clubs.png;JK1;art/joker-symbol.png;JK2;art/joker-symbol.png;#default;#empty)#
-h,<img=art/health.png;1.1;0;4>
-p,<img=art/power.png;1.1;0;4>
-s,<img=art/size.png;1.1;0;4>
