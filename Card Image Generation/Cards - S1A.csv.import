@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://brdbvaoh3yos8"
+
+[deps]
+
+files=["res://Card Image Generation/Cards - S1A.allowed.translation", "res://Card Image Generation/Cards - S1A.Set.translation", "res://Card Image Generation/Cards - S1A.Suit.translation", "res://Card Image Generation/Cards - S1A.Number.translation", "res://Card Image Generation/Cards - S1A.Faction.translation", "res://Card Image Generation/Cards - S1A.name.translation", "res://Card Image Generation/Cards - S1A.card.translation", "res://Card Image Generation/Cards - S1A.type.translation", "res://Card Image Generation/Cards - S1A.Cost.translation", "res://Card Image Generation/Cards - S1A.Health.translation", "res://Card Image Generation/Cards - S1A.Power.translation", "res://Card Image Generation/Cards - S1A.Size.translation", "res://Card Image Generation/Cards - S1A.Deploy.translation", "res://Card Image Generation/Cards - S1A.Trigger.translation", "res://Card Image Generation/Cards - S1A.Effect.translation", "res://Card Image Generation/Cards - S1A.Attribution.translation", "res://Card Image Generation/Cards - S1A.Designer.translation", "res://Card Image Generation/Cards - S1A.Source.translation"]
+
+source_file="res://Card Image Generation/Cards - S1A.csv"
+dest_files=["res://Card Image Generation/Cards - S1A.allowed.translation", "res://Card Image Generation/Cards - S1A.Set.translation", "res://Card Image Generation/Cards - S1A.Suit.translation", "res://Card Image Generation/Cards - S1A.Number.translation", "res://Card Image Generation/Cards - S1A.Faction.translation", "res://Card Image Generation/Cards - S1A.name.translation", "res://Card Image Generation/Cards - S1A.card.translation", "res://Card Image Generation/Cards - S1A.type.translation", "res://Card Image Generation/Cards - S1A.Cost.translation", "res://Card Image Generation/Cards - S1A.Health.translation", "res://Card Image Generation/Cards - S1A.Power.translation", "res://Card Image Generation/Cards - S1A.Size.translation", "res://Card Image Generation/Cards - S1A.Deploy.translation", "res://Card Image Generation/Cards - S1A.Trigger.translation", "res://Card Image Generation/Cards - S1A.Effect.translation", "res://Card Image Generation/Cards - S1A.Attribution.translation", "res://Card Image Generation/Cards - S1A.Designer.translation", "res://Card Image Generation/Cards - S1A.Source.translation"]
+
+[params]
+
+compress=true
+delimiter=0

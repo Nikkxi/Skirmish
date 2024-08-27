@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://7pc0s8r3dsem"
+
+[deps]
+
+files=["res://Card Image Generation/Cards - S4A.Set.translation", "res://Card Image Generation/Cards - S4A.Suit.translation", "res://Card Image Generation/Cards - S4A.Number.translation", "res://Card Image Generation/Cards - S4A.Faction.translation", "res://Card Image Generation/Cards - S4A.Name.translation", "res://Card Image Generation/Cards - S4A.card.translation", "res://Card Image Generation/Cards - S4A.type.translation", "res://Card Image Generation/Cards - S4A.Cost.translation", "res://Card Image Generation/Cards - S4A.Health.translation", "res://Card Image Generation/Cards - S4A.Power.translation", "res://Card Image Generation/Cards - S4A.Size.translation", "res://Card Image Generation/Cards - S4A.Deploy.translation", "res://Card Image Generation/Cards - S4A.Trigger.translation", "res://Card Image Generation/Cards - S4A.Effect.translation", "res://Card Image Generation/Cards - S4A.Attribution.translation", "res://Card Image Generation/Cards - S4A.Designer.translation", "res://Card Image Generation/Cards - S4A.Source.translation"]
+
+source_file="res://Card Image Generation/Cards - S4A.csv"
+dest_files=["res://Card Image Generation/Cards - S4A.Set.translation", "res://Card Image Generation/Cards - S4A.Suit.translation", "res://Card Image Generation/Cards - S4A.Number.translation", "res://Card Image Generation/Cards - S4A.Faction.translation", "res://Card Image Generation/Cards - S4A.Name.translation", "res://Card Image Generation/Cards - S4A.card.translation", "res://Card Image Generation/Cards - S4A.type.translation", "res://Card Image Generation/Cards - S4A.Cost.translation", "res://Card Image Generation/Cards - S4A.Health.translation", "res://Card Image Generation/Cards - S4A.Power.translation", "res://Card Image Generation/Cards - S4A.Size.translation", "res://Card Image Generation/Cards - S4A.Deploy.translation", "res://Card Image Generation/Cards - S4A.Trigger.translation", "res://Card Image Generation/Cards - S4A.Effect.translation", "res://Card Image Generation/Cards - S4A.Attribution.translation", "res://Card Image Generation/Cards - S4A.Designer.translation", "res://Card Image Generation/Cards - S4A.Source.translation"]
+
+[params]
+
+compress=true
+delimiter=0

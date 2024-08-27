@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://1nqovfnkp7aw"
+
+[deps]
+
+files=["res://Card Image Generation/playtest_defines.Content.translation"]
+
+source_file="res://Card Image Generation/playtest_defines.csv"
+dest_files=["res://Card Image Generation/playtest_defines.Content.translation"]
+
+[params]
+
+compress=true
+delimiter=0
