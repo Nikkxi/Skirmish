@@ -1,9 +1,14 @@
-Variable,Content
+Variable,[any faction;#empty]
 symbol,#(switch;@[suit];H;art/hearts.png;D;art/diamonds.png;S;art/spades.png;C;art/clubs.png;JKF1;art/joker-symbol.png;JKF2;art/joker-symbol.png;JKB1;art/joker-symbol.png;JKB2;art/joker-symbol.png;#default;#empty)#
 h,<img=art/health.png;1.1;0;4>
+qc,<img=art/quickcost.png;0;4;45;45>
+c,<img=art/cost.png;1;0;4>
 p,<img=art/power.png;1.1;0;4>
-s,<img=art/size.png;1.1;0;4>
-logo,<img=art/logo/@[faction].png;1.1;0;4>
-color,#(switch;@[faction];macrohard corp;0x2C2C2C;republic of mars;0xb23825;atlantean guard;0x4e8672;jovian collective;0x90614D;stonewall kingdom;0x1155cc;#empty;#(switch;@[suit];H;0xcc0000;D;0xcc0000;S;0x000000;C;0x000000;#default;#empty)#;#default;0x5f8971)#
-color2,#(switch;@[faction];macrohard corp;0xEE7828;republic of mars;0x401c13;atlantean guard;0x315184;jovian collective;0x404436;stonewall kingdom;0x00843D;#empty;0xFFFFFF;#default;0x5f8971)#
-color3,#(switch;@[faction];macrohard corp;0xeeeeee;republic of mars;0xf0e7e7;atlantean guard;0xfefeef;jovian collective;0xD2CFDA;stonewall kingdom;0xFFFFFF;#empty;0xFFFFFF;#default;0xFFFFFF)#
+s,<img=art/size.png;1;0;4>
+f,<img=art/fast.png;0;4;50;50>
+f,<img=art/armor.png;0;4;50;50>
+logo,<img=art/logo/@[faction].png;1;0;4>
+scrap,scrap this
+color,#(switch;@[faction];blackpit kingdom;13120e;scrap zealots;652c06;scions of krubbish;0x306036;acolytes of trarsh;0x8c001a;macrohard corp;0x2C2C2C;republic of mars;0xb23825;atlantean guard;0x4e8672;triton's hand;0x90614D;stonewall kingdom;0x1155cc;joker;b7e1cd;#default;#(switch;@[suit];H;0xcc0000;D;0xcc0000;S;0x000000;C;0x000000;#default;#empty)#)#
+color2,#(switch;@[faction];blackpit kingdom;120e42;scrap zealots;df7979;scions of krubbish;0xC05599;acolytes of trarsh;0x735340;macrohard corp;0xEE7828;republic of mars;0x401c13;atlantean guard;0x315184;triton's hand;0x404436;stonewall kingdom;0x00843D;joker;0xFFFFFF;#default;0xFFFFFF)#
+color3,#(switch;@[faction];blackpit kingdom;61dac9;scrap zealots;B8D634;scions of krubbish;0xF1DEB3;acolytes of trarsh;0xd9ce95;macrohard corp;0xeeeeee;republic of mars;0xf0e7e7;atlantean guard;0xfefeef;triton's hand;0xD2CFDA;stonewall kingdom;0xFFFFFF;joker;0xFFFFFF;#default;0xFFFFFF)#
