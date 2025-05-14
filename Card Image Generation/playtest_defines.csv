@@ -9,11 +9,11 @@ s,<img=art/size.png;1.1;0;4>
 a,<img=art/armor.png;1.1;0;4>
 f,<img=art/fast.png;1.1;0;4>
 scrap,Scrap this
-color,#(switch;@[faction];jtek corp;f2e5bf;blackpit kingdom;13120e;scrap zealots;652c06;scions of krubbish;0x306036;acolytes of trarsh;0x8c001a;macrohard corp;0x2C2C2C;republic of mars;0xb23825;atlantean guard;0x4e8672;triton's hand;0x90614D;stonewall kingdom;0x1155cc;rat pack;434343;#default;0x000000)#
-color2,#(switch;@[faction];jtek corp;CB6040;blackpit kingdom;9591c1;scrap zealots;df7979;scions of krubbish;0xC05599;acolytes of trarsh;0x735340;macrohard corp;0xEE7828;republic of mars;0x401c13;atlantean guard;0x315184;triton's hand;0x404436;stonewall kingdom;0x00843D;rat pack;00ff00;#default;0xcc0000)#
-color3,#(switch;@[faction];jtek corp;2c2c2c;blackpit kingdom;61dac9;scrap zealots;B8D634;scions of krubbish;0xF1DEB3;acolytes of trarsh;0xd9ce95;macrohard corp;0xeeeeee;republic of mars;0xf0e7e7;atlantean guard;0xfefeef;triton's hand;0xD2CFDA;stonewall kingdom;0xFFFFFF;rat pack;371d01;#default;0xFFFFFF)#
-color4,#(if [@[faction]] == [blackpit kingdom;jtek corp;stonewall kingdom;republic of mars;atlantean guard;macrohard corp;triton's hand;scions of krubbish] then ffffff else 000000)#
-color5,#(if  [@[faction]] == [blackpit kingdom;jtek corp;stonewall kingdom;republic of mars;atlantean guard;macrohard corp;triton's hand;scions of krubbish] then 000000 else ffffff)#
+color,#(switch;@[faction];factory rats;434343;bridge rats;245f63;sewer rats;36482f;jtek corp;f2e5bf;blackpit kingdom;13120e;scrap zealots;652c06;scions of krubbish;0x306036;acolytes of trarsh;0x8c001a;macrohard corp;0x2C2C2C;republic of mars;0xb23825;atlantean guard;0x4e8672;triton's hand;0x90614D;stonewall kingdom;0x1155cc;rat pack;434343;#default;0x000000)#
+color2,#(switch;@[faction];factory rats;36482f;bridge rats;434343;sewer rats;245f63;jtek corp;CB6040;blackpit kingdom;9591c1;scrap zealots;df7979;scions of krubbish;0xC05599;acolytes of trarsh;0x735340;macrohard corp;0xEE7828;republic of mars;0x401c13;atlantean guard;0x315184;triton's hand;0x404436;stonewall kingdom;0x00843D;rat pack;00ff00;#default;0xcc0000)#
+color3,#(switch;@[faction];factory rats;ffc9c9;bridge rats;ffc9c9;sewer rats;ffc9c9;jtek corp;2c2c2c;blackpit kingdom;61dac9;scrap zealots;B8D634;scions of krubbish;0xF1DEB3;acolytes of trarsh;0xd9ce95;macrohard corp;0xeeeeee;republic of mars;0xf0e7e7;atlantean guard;0xfefeef;triton's hand;0xD2CFDA;stonewall kingdom;0xFFFFFF;rat pack;371d01;#default;0xFFFFFF)#
+color4,#(if [@[faction]] == [factory rats;bridge rats;sewer rats;blackpit kingdom;jtek corp;stonewall kingdom;republic of mars;atlantean guard;macrohard corp;triton's hand;scions of krubbish;core set] then ffffff else 000000)#
+color5,#(if  [@[faction]] == [factory rats;bridge rats;sewer rats;blackpit kingdom;jtek corp;stonewall kingdom;republic of mars;atlantean guard;macrohard corp;triton's hand;scions of krubbish;core set] then 000000 else ffffff)#
 color6,#(if [@[faction]] == [jtek corp;triton's hand] then ffffff else 000000)#
-suitcolor,#(if  [@[faction]] == [blackpit kingdom;jtek corp;stonewall kingdom;republic of mars;Core Set;atlantean guard;macrohard corp;triton's hand;scions of krubbish] then -dark else #empty)#
+suitcolor,#(if  [@[faction]] == [factory rats;bridge rats;sewer rats;blackpit kingdom;jtek corp;stonewall kingdom;republic of mars;Core Set;atlantean guard;macrohard corp;triton's hand;scions of krubbish] then -dark else #empty)#
 bwsuitcolor,#(if  [@[faction]] != [S;C;jtek corp] then -dark else #empty)#
